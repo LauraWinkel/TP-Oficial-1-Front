@@ -1,0 +1,47 @@
+.primero{
+    height: 210px;
+    width: 100%;
+    background-color: rgb(158, 197, 171);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.segundo{
+    height: 210px;
+    width: 100%;
+    background-color: rgb(102, 146, 116);
+    display: flex;
+}
+.tercero{
+    height: 210px;
+    width: 100%;
+    background-color: rgb(158, 197, 171);
+    display: flex;
+}
+
+.coso{
+    height: 30%;
+    width: 40%;
+    background-color: rgb(241, 46, 46);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.cosa{
+    height: 25px;
+    width: 85%;
+    background-color: rgb(201, 180, 180);
+}
+
+.cosota{
+    height: 30%;
+    width: 60px;
+    background-color: rgb(31, 27, 27);
+}
+
+.mini{
+    height: 30px;
+    width: 60px;
+    background-color: grey;
+}
