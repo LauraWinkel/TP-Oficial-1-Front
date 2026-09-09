@@ -1,47 +1,91 @@
+/*Parte 1*/
 .primero{
-    height: 210px;
+    height: 150px;
     width: 100%;
     background-color: rgb(158, 197, 171);
     display: flex; 
     align-items: center;
     justify-content: center;
 }
-.segundo{
-    height: 210px;
-    width: 100%;
-    background-color: rgb(102, 146, 116);
-    display: flex;
-}
-.tercero{
-    height: 210px;
-    width: 100%;
-    background-color: rgb(158, 197, 171);
-    display: flex;
-}
 
-.coso{
-    height: 30%;
-    width: 40%;
+.rectangulo{
+    height: 40%;
+    width: 45%;
     background-color: rgb(241, 46, 46);
     display: flex; 
     align-items: center;
     justify-content: center;
 }
 
-.cosa{
-    height: 25px;
+.escribir{
+    height: 30%;
     width: 85%;
     background-color: rgb(201, 180, 180);
 }
 
-.cosota{
-    height: 30%;
+.icono{
+    height: 40%;
     width: 60px;
     background-color: rgb(31, 27, 27);
 }
 
+/*Parte 1.2*/
 .mini{
-    height: 30px;
-    width: 60px;
-    background-color: grey;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(158, 197, 171);
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.uno{
+    height: 30%;
+    width: 12%;
+    background-color: rgb(104, 121, 110);
+}
+
+/*Parte 2*/
+.segundo{
+    height: 220px;
+    width: 100%;
+    background-color: rgb(102, 146, 116);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 18%;
+    
+}
+
+.cuadrado{
+    height: 60%;
+    width: 10%;
+    background-color: rgb(38, 133, 68); 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;  
+    flex-direction: column;
+    padding: 1.8%;
+}
+
+.lista{
+    height: 15%;
+    width: 98%;
+    background-color: rgb(59, 38, 133); 
+}
+
+.circulo{
+    height: 15%;
+    width: 20%;
+    background-color: rgb(133, 89, 38);  
+}
+
+
+
+/*Parte 3*/
+.tercero{
+    height: 220px;
+    width: 100%;
+    background-color: rgb(158, 197, 171);
+    display: flex;
 }
