@@ -49,18 +49,18 @@
 
 .segundo{
     height: 300px;
-    width: 90%;
+    width: 80%;
     background-color: rgb(102, 146, 116);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 10%;
-    
+    padding-right: 10%;
 }
 
 .cuadradogrande{
     height: 55%;
-    width: 12%;
+    width: 13%;
     background-color: rgb(38, 133, 68); 
     display: flex;
     align-items: start; 
@@ -79,7 +79,7 @@
 
     .circulo{
     height: 100%;
-    width: 15%;
+    width: 13%;
     background-color:  rgb(102, 146, 116); 
     }
 
@@ -89,16 +89,74 @@
     background-color: rgb(194, 183, 171);  
     }
 
-.texto{
-    height: 12%;
-    width: 40%;
-    background-color: black;
+.cuadradotexto{
+    height: 70%;
+    width: 50%;
+    background-color: rgb(102, 146, 116);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
+.c-texto{
+    height: 22%;
+    width: 100%;
+    background-color:  rgb(102, 146, 116); 
+    }
 
-/*Parte 3*/
+    .texto{
+    height: 75%;
+    width: 100%;
+    background-color: black;
+    }
+
+.c-minitexto{
+    height: 15%;
+    width: 100%;
+    background-color:  rgb(102, 146, 116); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    .minitexto{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+
+    .minitexto-distinto{
+        height: 30%;
+        width: 70%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /*Parte 2*//*////////////////////////////////////////////////////////////////////////////////////////////*/
+
 .tercero{
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: rgb(158, 197, 171);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grande-1{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(44, 216, 102);
+}
+
+.grande-2{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(216, 44, 164);
+}
+
+.grande-3{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(44, 56, 216);
 }
