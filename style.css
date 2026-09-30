@@ -146,52 +146,103 @@
 }
 
 .grande-1{
-    height: 80%;
+    height: 81%;
     width: 20%;
-    background-color: rgb(44, 216, 102);
+    background-color:  rgb(158, 197, 171);
+    display: flex;
+    flex-direction: column;
 }
 
 .grande-2{
     height: 80%;
     width: 20%;
-    background-color: rgb(216, 44, 164);
+    background-color:  rgb(158, 197, 171);
+    display: flex;
+    flex-direction: column;
 }
 
 .grande-3{
     height: 80%;
     width: 20%;
-    background-color: rgb(44, 56, 216);
-}
-
-.c-color{
-    height: 65%;
-    width: 100%;
-    background-color: rgb(216, 44, 44);
+    background-color:  rgb(158, 197, 171);
     display: flex;
-    flex-direction: center;
-    
+    flex-direction: column;
 }
 
 .color{
     height: 65%;
     width: 100%;
+    background-color: rgb(44, 99, 216);
+}
+
+.colorr{
+    height: 65%;
+    width: 100%;
+    background-color: rgb(226, 145, 79);
+}
+
+.c-color{
+    height: 45%;
+    width: 70%;
     background-color: rgb(216, 44, 44);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15%;
+}
+
+.contenido{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(216, 44, 44);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .cuadradito{
-    height: 10%;
-    width: 60%;
-    background-color: rgb(216, 199, 44);
+    height: 25%;
+    width: 100%;
+    background-color: rgb(211, 112, 112)
 }
 
 .textito{
-    height: 10%;
-    width: 10%;
-    background-color: rgb(44, 216, 159);
+    height: 8%;
+    width: 100%;
+    background-color:  rgb(255, 255, 255);
 }
 
 .texti{
+    height: 8%;
+    width: 60%;
+    background-color:  rgb(255, 255, 255);
+}
+
+.COMPONENTES{
+    height: 29%;
+    width: 100%;
+    background-color:  rgb(158, 197, 171);
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.TEXTO{
     height: 10%;
-    width: 10%;
-    background-color: rgb(210, 44, 216);
+    width: 100%;
+    background-color:  black;
+}
+.TEXTITO{
+    height: 10%;
+    width: 100%;
+    background-color:  rgb(104, 121, 110);
+}
+.MEXTITO{
+    height: 10%;
+    width: 50%;
+    background-color:  rgb(104, 121, 110);
 }
